@@ -46,7 +46,6 @@ const Receta = ({ receta }) => {
 
     // muestra y formatea los ingredientes
     const mostrarIngredientes = informacion => {
-        console.log(informacion);
         let ingredientes = [];
         for(let i = 1; i< 15; i++){
             if(informacion[`strIngredient${i}`]) {
